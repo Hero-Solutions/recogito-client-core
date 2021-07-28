@@ -63,6 +63,10 @@ export default class WebAnnotation {
     return this.underlying.body;
   }
 
+  get stylesheet() {
+    return this.underlying.stylesheet;
+  }
+
   get target() {
     return this.underlying.target;
   }
