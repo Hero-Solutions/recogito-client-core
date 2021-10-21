@@ -87,7 +87,7 @@ export default class Selection {
 
   toAnnotation = () => {
     const a = Object.assign({}, this.underlying, {
-      '@context': 'http://www.w3.org/ns/anno.jsonld',
+      '@context': 'http://iiif.io/api/presentation/3/context.json',
       'type': 'Annotation',
       'id': `#${uuid()}`
     });

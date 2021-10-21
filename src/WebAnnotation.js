@@ -11,7 +11,7 @@ export default class WebAnnotation {
   /** For convenience - creates an empty web annotation **/
   static create = args => {
     const stub = {
-      '@context': 'http://www.w3.org/ns/anno.jsonld',
+      '@context': 'http://iiif.io/api/presentation/3/context.json',
       'type': 'Annotation',
       'id': `#${uuid()}`,
       'body': []

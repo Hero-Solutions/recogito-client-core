@@ -2,7 +2,7 @@ import assert from 'assert';
 import WebAnnotation from "../src/WebAnnotation";
 
 const fixtureAnnotation = {
-  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
   type: "Annotation",
   body: [
     {
